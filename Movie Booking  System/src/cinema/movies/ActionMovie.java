@@ -17,8 +17,8 @@ public class ActionMovie extends Movie {
     }
 
     public void showDetails(){
-        System.out.println("-----Alem cinema------ ");
-        System.out.println("******ACTION MOVIE******");
+        System.out.println("  ---ALEM CINEMA---    ");
+        System.out.println("  ---ACTION MOVIE---  ");
 
         System.out.println("movie title "+ getTitle());
         System.out.println("duration "+ getDuration());
