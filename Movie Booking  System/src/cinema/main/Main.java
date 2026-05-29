@@ -18,11 +18,13 @@ public class Main {
         ArrayList<Booking> bookings = new ArrayList<>();
 
         // adding movies
-        movies.add(new ActionMovie("Fast X", 120, 150, "High"));
+        movies.add(new ActionMovie("The Matrix", 120, 150, "High"));
         movies.add(new ActionMovie("Pathaan", 146, 120, "Medium"));
         movies.add(new ActionMovie("the karate kid", 140 , 150, "High"));
-        movies.add(new ComedyMovie("FBI 2", 110, 70, "Slapstick"));
+        movies.add(new ComedyMovie("Home Alone 2", 110, 100, "Slapstick"));
         movies.add(new ComedyMovie("3 Idiots", 170, 110, "Situational"));
+        movies.add(new ComedyMovie("FBI 3", 130 , 70 ,"Amharic");
+        movies.add(new ComedyMovie("ye wendoch guday", 130 ,70 "amharic");
 
 // use a loop
         for (int i = 1; i <= 100; i++) {
@@ -96,7 +98,7 @@ public class Main {
                 sc.nextLine();
 
 
-                if (numSeats < 1 || numSeats > 10) {
+                if (numSeats < 1 || numSeats > 100) {
                     throw new Exception("You can book between 1 and 10 seats only!");
                 }
 
@@ -123,7 +125,7 @@ public class Main {
                     bookings.add(new Booking(name, chosenMovie, chosenSeat));
                     bookedCount++;
                 }
-                if(numSeats > 1){
+                if(numSeats >= 1){
                     double totalPrice = numSeats * chosenMovie.getTicketPrice();
                     System.out.println("the total pricee is "+ totalPrice);
                 }
@@ -172,7 +174,7 @@ public class Main {
                 }
             }else if (choice == 5) {
                     running = false;
-                    System.out.println("Goodbye!");
+                    System.out.println("Good bye!");
 
                 } else {
                     System.out.println("Invalid choice! Please enter 1 to 5.");
