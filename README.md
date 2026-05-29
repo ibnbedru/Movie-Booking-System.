@@ -1,4 +1,4 @@
-# 🎬 Cinema Booking System
+# 🎬 Movie Booking System
 
 A console-based Java application that simulates a real cinema booking experience.
 Built as a student project to demonstrate core Object-Oriented Programming concepts.
