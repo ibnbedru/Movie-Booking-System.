@@ -16,8 +16,8 @@ public class ComedyMovie extends Movie {
     }
 
     public void showDetails(){
-        System.out.println("-----alem cinema------ ");
-        System.out.println("-----comedy movies ------ ");
+        System.out.println("  ---ALEM CINEMA---  ");
+        System.out.println(" ---COMEDY MOVIES --- ");
         System.out.println("movie title "+ getTitle());
         System.out.println("duration "+ getDuration());
         System.out.println("comedy type"+ getComedyType());
