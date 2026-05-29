@@ -22,7 +22,7 @@ public abstract class Movie {
         public double getTicketPrice() {
             return ticketPrice;
         }
-
+// I Just write the setter because it's asked for the project but i didn"t use any of this setters 
         public void setTitle(String title) {
             this.title = title;
         }
@@ -34,7 +34,7 @@ public abstract class Movie {
             this.ticketPrice = ticketPrice;
         }
         public abstract  void showDetails();
-//    abstract void calculatePrice();
+
     }
 
 
