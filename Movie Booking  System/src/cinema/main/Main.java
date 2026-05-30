@@ -34,7 +34,7 @@ public class Main {
         boolean running = true;
 
         while (running) {
-            System.out.println("\n===== Cinema Booking System =====");
+            System.out.println("\n===== Movie Booking System =====");
             System.out.println("1. View all movies");
             System.out.println("2. Book a seat");
             System.out.println("3. Cancel booking");
